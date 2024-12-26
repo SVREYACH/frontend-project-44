@@ -1,2 +1,5 @@
 #!/usr/bin/env node
-console.log ("Welcome to the Brain Games!");
+import greetUser from '../src/cli.js';
+import gameNumbers from './brain-even.js';
+const name = greetUser();
+gameNumbers(name);
