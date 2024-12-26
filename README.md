@@ -3,5 +3,8 @@
 
 ![Maintainability](https://api.codeclimate.com/v1/badges/f243d1b3923805a4806c/maintainability)
 
-### запись игры
+### запись brain-even
 https://asciinema.org/a/kvvDmijUfJ58pWH2BEjINvnBO
+
+### запись brain-calc
+https://asciinema.org/a/2K4h05yAMRzG2EMVAlA93YMHR
