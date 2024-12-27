@@ -8,3 +8,6 @@ https://asciinema.org/a/kvvDmijUfJ58pWH2BEjINvnBO
 
 ### запись brain-calc
 https://asciinema.org/a/2K4h05yAMRzG2EMVAlA93YMHR
+
+### запись brain-gcd
+ https://asciinema.org/a/Sp7HuWokOVsYy06I6UHlJ9EI5
