@@ -21,7 +21,7 @@ const gamePrime = (name) => {
     console.log(`Question: ${question}`);
     const response = readlineSync.question('Your answer: ');
 
-    if (response === correctAnswer) {
+    if (response.toLowerCase === correctAnswer) {
       console.log('Correct!');
     } else {
       console.log(`'${response}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
