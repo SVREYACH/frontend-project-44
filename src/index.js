@@ -7,12 +7,10 @@ const startGame = (description, generateQuestionAndAnswer) => {
   console.log(description);
 
   for (let round = 0; round < 3; round += 1) {
-    const roundData = generateQuestionAndAnswer();
-    const question = roundData[0];
-    const correctAnswer = roundData[1];
+    const [question, correctAnswer] = generateQuestionAndAnswer();
 
     console.log(`Question: ${question}`);
-    const userAnswer = readlineSync.question('Your answer: ').toLowerCase();;
+    const userAnswer = readlineSync.question('Your answer: ').trim().toLowerCase();
 
     if (userAnswer !== correctAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
