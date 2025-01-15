@@ -12,7 +12,7 @@ const generateQuestionAndAnswer = () => {
   const start = Math.floor(Math.random() * 10) + 1;
   const step = Math.floor(Math.random() * 10) + 1;
   const length = Math.floor(Math.random() * 6) + 5;
-  
+
   const progression = generateProgression(start, step, length);
   const hiddenIndex = Math.floor(Math.random() * length);
   const correctAnswer = String(progression[hiddenIndex]);

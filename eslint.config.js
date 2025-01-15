@@ -7,6 +7,10 @@ export default [
   pluginJs.configs.recommended,
   {
     rules: {
+      "linebreak-style": ["error", "unix"],
+      "no-trailing-spaces": "error",
+      "eol-last": ["error", "always"],
+      "indent": ["error", 2],
     },
   },
 ];
