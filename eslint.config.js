@@ -1,5 +1,5 @@
-import globals from "globals";
-import pluginJs from "@eslint/js";
+import globals from 'globals';
+import pluginJs from '@eslint/js';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -7,10 +7,10 @@ export default [
   pluginJs.configs.recommended,
   {
     rules: {
-      "linebreak-style": ["error", "unix"],
-      "no-trailing-spaces": "error",
-      "eol-last": ["error", "always"],
-      "indent": ["error", 2],
+      'linebreak-style': ['error', 'unix'],
+      'no-trailing-spaces': 'error',
+      'eol-last': ['error', 'always'],
+      'indent': ['error', 2],
     },
   },
 ];
