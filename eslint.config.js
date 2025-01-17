@@ -10,7 +10,7 @@ export default [
       'linebreak-style': ['error', 'unix'],
       'no-trailing-spaces': 'error',
       'eol-last': ['error', 'always'],
-      'indent': ['error', 2],
+      indent: ['error', 2],
     },
   },
 ];
